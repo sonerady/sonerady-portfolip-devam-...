@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="">
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive Portfolio Website</title>
+</head>
+
+
+
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <!--------NAVBAR----------->
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Sonerady.</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i>Anasayfa
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>Hakkımda
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i>Beceriler
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i>Yaptığı İşler
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#message" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>İletişim
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== ANASAYFA ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/soner-ad%C4%B1yaman-046a8a67/" class="home__social-icon"
+                            target="_blank">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://sonerady.medium.com/" class="home__social-icon" target="_blank">
+                            <i class="uil uil-medium-m"></i>
+                        </a>
+                        <a href="https://github.com/sonerady" class="home__social-icon" target="_blank">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+                    <div class="home__blob">
+                        <img src="./assets/img/home-img.jpg" alt="home-img">
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Merhaba,&#129306; Ben Soner</h1>
+                        <h3 class="home__subtitle">Frontend Developer</h3>
+                        <p class="home__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis
+                            quia, ullam veniam ratione eum quaerat, nulla fugiat omnis eaque quos harum dolorem,
+                            molestias architecto maiores autem amet libero tenetur saepe?</p>
+                        <a href="#contact" class="button button--flex">
+                            Benimle İletişim Kur <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-down">Aşağı Kaydır</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Hakkımda ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">Hakkımda</h2>
+            <span class="section__subtitle">Soner Kimdir ?</span>
+
+            <div class="about__container container grid">
+                <img src="./assets/img/about.jpg" alt="" class="about__img">
+                <div class="about__data">
+                    <p class="about__description">Algoritmalar ve yazılım üzerine çalışmaktan, felsefe üzerine
+                        araştırmaktan ve okumaktan çok hoşlanır. Yeni yazılım teknolojilerini, girişimleri ve web
+                        üzerindeki yenilikleri yakından takip eder. Sorumluluk almaktan kaçınmaz ve yaratıcı çözümler
+                        üretebilir. Hızlı ve etkili kararlar alarak stres yönetiminde başarı sağlar.</p>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">02+</span>
+                            <span class="about__info-name">Yıl <br> deneyim </span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">10+</span>
+                            <span class="about__info-name">Tamamlanmış <br> proje </span>
+                        </div>
+                    </div>
+                    <div class="about__buttons">
+                        <a download="" href="./assets/pdf/Soner_Adıyaman_Front_end_developer.pdf"
+                            class="button button--flex">CV'yi İndir/Gözat
+                            <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <div class="section__title">Beceriler</div>
+            <span class="section__subtitle">Beceri Seviyelerim</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!--==================== BECERİLER -1- ====================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Frontend Developer</h1>
+                                <span class="skills__subtitle">2 Yıldan fazla bir süredir...</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <!---------HTML--------->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+                            <!---------CSS--------->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+                            <!---------Javascript--------->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Javascript</h3>
+                                    <span class="skills__number">65%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+                            <!---------React--------->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__react"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== BECERİLER -2- ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-server skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Backend Developer</h1>
+                                <span class="skills__subtitle">1 Yıldan fazla bir süredir...</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <!---------HTML--------->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Node Js</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__node"></span>
+                                </div>
+                            </div>
+                            <!---------CSS--------->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Firebase</h3>
+                                    <span class="skills__number">55%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__firebase"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== BECERİLER -3- ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-swatchbook skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Designer</h1>
+                                <span class="skills__subtitle">7 Yıldan fazla bir süredir...</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div class="skills__list grid">
+                            <!---------FİGMA--------->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Figma</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__figma"></span>
+                                </div>
+                            </div>
+                            <!---------PHOTOSHOP-------->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Photoshop</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__photoshop"></span>
+                                </div>
+                            </div>
+                            <!---------ILLUSTRATOR--------->
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Illustrator</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__illustrator"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== VASIF ====================-->
+        <section class="qualification section">
+            <h2 class="section__title">Eğitim & Deneyim</h2>
+            <span class="section__subtitle">Eğitim ve iş deneyimlerim</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Eğitim
+                    </div>
+                    <div class="qualification__button button--flex">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        İş Hayatı
+                    </div>
+                </div>
+                <!--==================== VASIF İÇERİK -1- ====================-->
+                <div class="qualification__sections qualification__active " data-content id="education">
+                    <div class="qualification__content">
+                        <!--==================== VASIF -1- ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">İşletme</h3>
+                                <span class="qualification__subtitle">Anadolu Üniversitesi</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2016-2020
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                        </div>
+
+                        <!--==================== VASIF -2- ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">Freelance Grafiker</h3>
+                                <span class="qualification__subtitle">İdemama/Fiverr</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2010-...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== VASIF İÇERİK -2- ====================-->
+                <div class="qualification__sections" data-content id="work">
+                    <div class="qualification__content">
+                        <!--==================== VASIF -1- ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Bilgisayar Programcılığı</h3>
+                                <span class="qualification__subtitle">Atatürk Üniversitesi</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2021-...
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== VASIF -2-====================-->
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Frontend Developer</h3>
+                                    <span class="qualification__subtitle">"X" Şirketi</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2021-...
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <!--==================== VASIF -3- ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+
+
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+
+
+        </section>
+
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section">
+
+
+        </section>
+
+        <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section">
+
+
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+
+
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+
+
+    <!--==================== SWIPER JS ====================-->
+    <script src=""></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
